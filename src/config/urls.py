@@ -5,4 +5,5 @@ import testapp.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('top/', testapp.views.root),
+    path('hello/', testapp.views.hello_world)
 ]
